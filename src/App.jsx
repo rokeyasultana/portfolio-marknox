@@ -1,9 +1,14 @@
 import './App.css'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
 
   return (
-    <div></div>
+    <div>
+      <Contact/>
+      <Footer/>
+    </div>
   )
 }
 
