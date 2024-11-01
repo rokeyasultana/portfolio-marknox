@@ -1,0 +1,11 @@
+@media (max-width: 640px) {
+    #contact {
+      margin-top: 50px;
+    }
+    #about{
+        margin-top: 10px; 
+    }
+    #projects{
+        margin-top: 150px; 
+    }
+  }

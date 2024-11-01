@@ -129,7 +129,7 @@ export default function Contact() {
                 <div className="flex justify-center">
                   <button
                     type="submit"
-                    className="bg-gray-500 text-white font-semibold py-3 px-8 rounded-lg"
+                    className="bg-gray-500 text-black font-semibold py-3 px-8 rounded-lg"
                   >
                     Send Message
                   </button>

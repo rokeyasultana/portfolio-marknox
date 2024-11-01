@@ -9,7 +9,7 @@ import {
 import { FaXTwitter } from "react-icons/fa6";
 export default function Footer() {
   return (
-<footer className="bg-white text-[#fefdd9] text-center py-8 relative border-t-2 border-t-glow border-gray-400 mt-7px">
+<footer  data-aos="zoom-in-up" data-aos-duration="1500" className="bg-white text-[#fefdd9] text-center py-8 relative border-t-2 border-t-glow border-gray-400 mt-7px">
       <div className="absolute top-0 left-0 right-0 h-1 bg-glow animate-pulse"></div>
 
       <div className="mb-4">
@@ -50,7 +50,7 @@ export default function Footer() {
         <FaRegCopyright color="#65645A" />
         <span>
           2024. All rights reserved by{" "}
-          <span className="text-[#9BA3AE]"> Rokeya Sultana</span>
+          <span className="text-[#9BA3AE]">Rokeya Sultana</span>
         </span>
       </div>
     </footer>
