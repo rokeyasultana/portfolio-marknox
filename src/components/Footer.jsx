@@ -1,4 +1,6 @@
 import React from 'react'
+import logo from "../assets/logo.png";
+
 import {
   FaFacebookF,
   FaLinkedinIn,
@@ -7,12 +9,12 @@ import {
 import { FaXTwitter } from "react-icons/fa6";
 export default function Footer() {
   return (
-<footer className="bg-white text-[#fefdd9] text-center py-8 relative border-t-10 border-t-glow border-[#B1B493] mt-7px">
+<footer className="bg-white text-[#fefdd9] text-center py-8 relative border-t-2 border-t-glow border-gray-400 mt-7px">
       <div className="absolute top-0 left-0 right-0 h-1 bg-glow animate-pulse"></div>
 
       <div className="mb-4">
         {/* Logo */}
-        <img src="" alt="Logo" className="mx-auto w-24" />
+        <img src={logo} alt="Logo" className="mx-auto w-24" />
       </div>
 
       <div className="flex justify-center space-x-6 mb-4">
@@ -23,15 +25,15 @@ export default function Footer() {
           rel="noreferrer"
           className="text-[#fefdd9] hover:text-gray-400"
         >
-          <FaFacebookF size={24} color="#65645A" />
+          <FaFacebookF size={24} color="#9BA3AE" />
         </a>
         <a
           href=""
           target="_blank"
           rel="noreferrer"
-          className="text-[#fefdd9] hover:text-gray-400"
+          className="text-gray-500 hover:text-gray-400"
         >
-          <FaXTwitter size={24} color="#65645A" />
+          <FaXTwitter size={24} color="#9BA3AE" />
         </a>
         <a
           href="https://www.linkedin.com/in/rokeya-sultanasbd/"
@@ -39,7 +41,7 @@ export default function Footer() {
           rel="noreferrer"
           className="text-[#fefdd9] hover:text-gray-400"
         >
-          <FaLinkedinIn size={24} color="#65645A" />
+          <FaLinkedinIn size={24} color="#9BA3AE" />
         </a>
       </div>
 
@@ -48,7 +50,7 @@ export default function Footer() {
         <FaRegCopyright color="#65645A" />
         <span>
           2024. All rights reserved by{" "}
-          <span className="text-[#D9D8C1]"> Rokeya Sultana</span>
+          <span className="text-[#9BA3AE]"> Rokeya Sultana</span>
         </span>
       </div>
     </footer>
